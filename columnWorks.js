@@ -5,7 +5,7 @@
 //    callback:   A callback function that will be called once per row and provided the current row and all column values as JSON object via 'this'
 //    options:    A JSON object that allows passing some optional parameters
 //      batchSize:    An integer value indicating how many rows should be processed in one batch. Default is calculated from the number of columns so
-//                    so that 100 column values get processed per batch (see row 28)
+//                    so that 100 column values get processed per batch
 //      endCallback:  A callback function that will be called once columnWorks has finished. No default value
 
 // A closure to wrap this whole thing into a 'module'
