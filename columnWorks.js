@@ -95,12 +95,12 @@
     // Define the looper function
     looper = function() {
       for(j = 0; j < batchSize; j++) {
+        // Check if i has reached the end
+        if(i > to) break;
+
         // Do the action and increment i
         action(i);
         i += 1;
-
-        // Check if i has reached the end
-        if(i > to) break;
       }
 
       // Schedule next run or exit
