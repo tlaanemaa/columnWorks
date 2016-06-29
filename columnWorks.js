@@ -60,6 +60,9 @@
       }
       callback.call(obj);
     }, options.endCallback);
+
+    // Return 'this' to allow for jQuery chaining
+    return this;
   };
 
   // A small internal function to parse text into numbers or boolean
